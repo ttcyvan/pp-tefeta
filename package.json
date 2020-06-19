@@ -4,7 +4,8 @@
   "description": "<p align=\"center\">\r   <img alt=\"\" src=\"./tefeta.logo.png\">\r </p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
   },
   "repository": {
     "type": "git",
