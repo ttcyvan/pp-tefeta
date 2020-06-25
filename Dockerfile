@@ -1,3 +1,4 @@
-FROM node:12
-COPY index.js /index.js
-CMD node index.js
+FROM node:12-alpine
+COPY package*.json ./
+RUN npm install
+CMD [ "ts-node", "src/main.js" ]
